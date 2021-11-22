@@ -1,0 +1,30 @@
+/*********** Hoja de estilo de la receta de cocina ***********/
+
+body {background-image: url("../Images/fabric-pillowcase-tablecloth-pattern.jpg");
+        padding:20px;
+        font-family: 'Roboto', sans-serif;}
+
+
+#container {width:75%;
+            background-color: white;
+            margin:auto;
+            padding: 23px;}
+
+#container h1 {text-align:center;}
+#peterparkertortillon {width: 50%;
+                        display:block;
+                        margin:auto}
+.fa {padding-right: 15px;}
+.fa1 {padding-right: 15px;}
+
+/******* media queries para hacer adaptaciones en pantallas pequeñas *******/
+/******* en realidad es un if que pone un limite al tamaño a partir ********/
+/******* del cual hay que adaptar el estilo para aprovechar el ancho */
+
+@media only screen and (max-width:600px){
+        #container {width: 100%;}
+        body {padding: 0px;
+                margin: 0px;}
+        #peterparkertortillon {width:75%;}
+}
+.fa-cutlery {color: chartreuse;}
